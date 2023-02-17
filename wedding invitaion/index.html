@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wedding Inviation Page</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+ <div id="header">
+  <div class="center" id="headerc">
+    <div class="middle">
+      <div style="display: none;">
+        <audio src="audio/music.mp3" autoplay loop></audio>
+      </div>
+      <img src="images/wedding-logo.svg" height="100px" width="200px">
+      <br><br>
+      <h1>We're Getting Married</h1>
+      <br>
+      <span>We would like to invite you to share our special day</span>
+
+    </div>
+  </div>
+</div>
+
+<div id="pageHr">
+</div>
+
+<div id="page">
+  <div class="row">
+    <div class="col-md-4">
+      <center>
+        <h3>Location</h3>
+        <br>
+        <h5>South Carolina State Museum</h5>
+        <h5>Date: February 12, 2018
+        <h5>Time: 5:00 PM</h5>
+        <h5>Address: 301 Gervais St, Columbia, SC 29201</h5>
+        <h5>Dress: Formal Attire</h5>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <h3>RSVP</h3> *No Children*
+        <br>
+        <form>
+          <h5>Will you attend:</h5>
+          <input type="checkbox" name="attending" value="yes"> Yes
+          <input type="checkbox" name="decline" value="no"> Decline<br>
+          <h5>First & Last Name:</h5>
+          <input type="text" name="firstLastname" required><br>
+
+          <h5>Phone Number</h5>
+          <input type="text" name="firstLastname" required><br>
+
+          <h5>Will you be bringing a guest:</h5>
+          <input type="checkbox" name="plus1" value="yes">Yes
+          <input type="checkbox" name="plus1" value="no">No <br>
+          <h5>Name of guest:<h5>
+          <input type="text" name="guestname" required><br>
+            <br>
+          <input type="submit" value="Submit" class="submit-btn">
+        </form>
+      </center>
+    </div>
+    <div class="col-md-4">
+      <center>
+        <h3>Our Wedding Registry</h3>
+        <br>
+        <a href="#"><h5>Pottery Barn</h5></a>
+
+          <a href="#"><h5>Amazon</h5></a>
+
+          <a href="#"><h5>Toys 'R' Us</h5></a>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(document).scroll(function() {
+  var st = $(this).scrollTop();
+  $("#header").css({
+    "background-position-y": (-st/20)
+  })
+  $("#headerc").css({
+    "top": (-st/5),
+    "bottom": (st/5)
+  })
+});
+</script>
+
+</body>
+</html>

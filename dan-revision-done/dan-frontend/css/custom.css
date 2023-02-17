@@ -1,0 +1,1623 @@
+@font-face {
+  font-family: Graphik Dan Web;
+  src: url("../fonts/GraphikRegular.otf"); }
+@font-face {
+  font-family: Graphik Dan Web Bold;
+  src: url("../fonts/GraphikBold.otf"); }
+@font-face {
+  font-family: Graphik Dan Web Light;
+  src: url("../fonts/GraphikLight.otf"); }
+@font-face {
+  font-family: Graphik Dan Web Medium;
+  src: url("../fonts/GraphikMedium.otf"); }
+@font-face {
+  font-family: Graphik Dan Web Semibold;
+  src: url("../fonts/GraphikSemibold.otf"); }
+.bg_light {
+  background-color: #F2F3F4 !important; }
+
+.border__bottom_light {
+  border-bottom: 1px solid #E2E5EA; }
+
+.border__top_light {
+  border-top: 1px solid #E2E5EA; }
+
+.common__shadow {
+  box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.08), 0px 0.25rem 2rem rgba(0, 0, 0, 0.08); }
+
+.g__ff__light {
+  font-family: Graphik Dan Web Light; }
+
+.g__ff__regular {
+  font-family: Graphik Dan Web; }
+
+.g__ff__medium {
+  font-family: Graphik Dan Web Medium; }
+
+.g__ff__semibold {
+  font-family: Graphik Dan Web Semibold; }
+
+.g__ff__bold {
+  font-family: Graphik Dan Web Bold; }
+
+.green__light_text {
+  color: #37C597; }
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+.section-padding {
+  padding: 9rem 0; }
+
+.section-heading {
+  margin-bottom: 1.2rem; }
+  .section-heading h2 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.25rem;
+    line-height: 4rem;
+    font-family: Graphik Dan Web Bold; }
+  .section-heading p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    font-family: Graphik Dan Web; }
+
+.bg-light {
+  background-color: #F2F3F4 !important; }
+
+.bg-blue-full {
+  background-color: #00112C; }
+
+.bg-blue-500 {
+  background-color: #04294F; }
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden; }
+  .embed-responsive .embed-responsive-item {
+    width: 100%;
+    min-height: 500px; }
+
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  font-family: Graphik Dan Web;
+  margin: 0;
+  box-sizing: border-box; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2, .h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+  line-height: 4rem; }
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer; }
+
+.button, .btn {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.35px; }
+
+.btn-lg {
+  border-width: 2px; }
+
+.btn {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
+
+.btn-lg {
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.5rem; }
+
+.btn-outline-secondary {
+  color: #00112C;
+  font-family: Graphik Dan Web Semibold;
+  border-color: #00112C; }
+  .btn-outline-secondary:hover {
+    color: #ffffff;
+    background-color: #00112C;
+    border-color: #00112C; }
+
+.btn-success {
+  color: #000;
+  font-family: Graphik Dan Web Semibold;
+  border-color: #38E8B0;
+  background: linear-gradient(0.25turn, #38E8B0, #3BF7D1); }
+  .btn-success:hover {
+    color: #000 !important;
+    background-color: #38E8B0;
+    border-color: #38E8B0; }
+
+.offer-bar-bottom ul {
+  margin-bottom: 0;
+  list-style-type: none; }
+  .offer-bar-bottom ul li {
+    color: #000;
+    font-size: 1.124rem;
+    margin-bottom: .5rem;
+    font-family: Graphik Dan Web Semibold; }
+
+.pagination {
+  z-index: 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+  a:hover {
+    color: #38E8B0 !important; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2; }
+
+h5 {
+  font-size: 1.125rem;
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+  font-family: Graphik Dan Web Semibold; }
+
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+.row-custom .col-md-7 {
+  padding: 0 !important; }
+.row-custom .col-md-5 {
+  padding: 0 !important; }
+
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+.navbar {
+  padding: 2rem 0rem; }
+  .navbar .navbar-nav .nav-link {
+    margin: 0 1rem;
+    font-family: Graphik Dan Web Bold;
+    font-weight: 400; }
+  .navbar .navbar-text .border-white {
+    border: 2px solid #fff; }
+  .navbar .navbar-text .border-blue {
+    border: 2px solid #00112C; }
+  .navbar .navbar-text .nav-btn {
+    padding: 0.75rem 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none; }
+  .navbar .dropdown-menu {
+    width: 40vw;
+    word-wrap: break-word;
+    transform: translateX(-50%);
+    position: relative;
+    border-radius: 0.5rem;
+    transition: 0.6s all;
+    border: none;
+    box-shadow: 0px 0.5rem 0.75rem rgba(0, 0, 0, 0.08), 0px 0.25rem 3rem rgba(0, 0, 0, 0.08) !important; }
+    .navbar .dropdown-menu::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-color: #ffffff;
+      position: absolute;
+      top: -10px;
+      z-index: -1;
+      left: 55%;
+      transform: translateX(-10% !important);
+      transform: rotate(45deg); }
+  .navbar .drop__style {
+    background-color: white;
+    padding: 20px; }
+  .navbar .info_layout {
+    padding: 5px 10px; }
+    .navbar .info_layout .drop__link {
+      font-size: 15px;
+      font-family: Graphik Dan Web Semibold;
+      line-height: 1.5rem;
+      color: black !important; }
+      .navbar .info_layout .drop__link:hover {
+        border-bottom: 1px solid #000 !important; }
+    .navbar .info_layout .drop__info {
+      font-size: 0.875rem;
+      margin: 10px 0px; }
+  .navbar .navbar-toggler {
+    box-shadow: none;
+    border: none;
+    box-shadow: 0; }
+  @media (max-width: 991px) {
+    .navbar .dropdown-menu {
+      width: auto;
+      transform: translateX(0%) !important; }
+      .navbar .dropdown-menu::before {
+        content: "";
+        background-color: transparent; } }
+
+@media only screen and (max-width: 600px) {
+  .navbar .navbar-nav {
+    margin: 1.125rem 0; }
+    .navbar .navbar-nav .dropdown-menu {
+      margin-bottom: 1rem !important; }
+    .navbar .navbar-nav .nav-item {
+      border-bottom: 2px solid #fff; }
+      .navbar .navbar-nav .nav-item .nav-link {
+        margin: 10px 0;
+        font-size: 1.25rem; }
+
+  .hero-secondary .navbar .navbar-nav .nav-item {
+    border-bottom: 2px solid #000; } }
+.hero-primary {
+  background-color: #00112C;
+  height: auto; }
+  .hero-primary .navbar {
+    background-color: #00112C; }
+  .hero-primary .hero-wrapper {
+    position: relative;
+    min-height: 300px;
+    background-color: #00112C;
+    color: #fff; }
+    .hero-primary .hero-wrapper .hero-content h1 {
+      font-size: 3.5rem;
+      letter-spacing: 1px;
+      line-height: 4.5rem;
+      font-family: Graphik Dan Web Bold;
+      text-align: center; }
+    .hero-primary .hero-wrapper .hero-content .hero-search-form {
+      margin-top: 3.5rem;
+      margin-left: auto;
+      margin-right: auto; }
+      .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group {
+        margin-bottom: 0;
+        padding: 0.3rem 0.7rem;
+        padding-left: 0.7rem;
+        padding-left: 1.4rem;
+        border-radius: 2rem;
+        background-color: #fff; }
+        .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group .form-control {
+          border: none !important;
+          outline: none !important;
+          box-shadow: none; }
+          .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group .form-control::placeholder {
+            color: #8795AA; }
+        .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group .input-group-text {
+          background-color: transparent;
+          padding: 5px;
+          border: none; }
+          .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group .input-group-text button {
+            padding: 1rem;
+            border-radius: 1.35rem;
+            border: none !important;
+            background-color: #38E8B0 !important;
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1rem;
+            letter-spacing: 0.35px; }
+    .hero-primary .hero-wrapper .hero-img img {
+      height: 500px; }
+
+.hero-secondary {
+  background-color: #00112C; }
+  .hero-secondary .hero-wrapper {
+    position: relative;
+    min-height: 300px; }
+    .hero-secondary .hero-wrapper .hero-content h1 {
+      font-size: 3.5rem;
+      letter-spacing: 1px;
+      line-height: 4.5rem;
+      font-family: Graphik Dan Web Bold; }
+    .hero-secondary .hero-wrapper .hero-content p {
+      font-size: 1.27rem;
+      font-family: Graphik Dan Web;
+      letter-spacing: 0.35px;
+      margin-top: 0;
+      line-height: 2rem; }
+    .hero-secondary .hero-wrapper .hero-content ul {
+      list-style-type: none;
+      margin-left: -1.875rem; }
+      .hero-secondary .hero-wrapper .hero-content ul li {
+        font-size: 1.27rem;
+        font-family: Graphik Dan Web;
+        letter-spacing: 0.35px;
+        margin-top: 0;
+        line-height: 2rem;
+        margin-bottom: .200rem; }
+    .hero-secondary .hero-wrapper .hero-content .hero-search-form {
+      margin-top: 3.5rem;
+      margin-left: auto;
+      margin-right: auto; }
+      .hero-secondary .hero-wrapper .hero-content .hero-search-form .input-group {
+        margin-bottom: 0;
+        padding: 0.3rem 0.7rem;
+        padding-left: 0.7rem;
+        padding-left: 1.4rem;
+        border-radius: 2rem;
+        background-color: #fff; }
+        .hero-secondary .hero-wrapper .hero-content .hero-search-form .input-group .form-control {
+          border: none !important;
+          outline: none !important;
+          box-shadow: none; }
+          .hero-secondary .hero-wrapper .hero-content .hero-search-form .input-group .form-control::placeholder {
+            color: #8795AA; }
+        .hero-secondary .hero-wrapper .hero-content .hero-search-form .input-group .input-group-text {
+          background-color: transparent;
+          padding: 5px;
+          border: none; }
+          .hero-secondary .hero-wrapper .hero-content .hero-search-form .input-group .input-group-text button {
+            padding: 1rem;
+            border-radius: 1.35rem;
+            border: none !important;
+            background-color: #38E8B0 !important;
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1rem;
+            letter-spacing: 0.35px; }
+            .hero-secondary .hero-wrapper .hero-content .hero-search-form .input-group .input-group-text button .btn-text {
+              padding: 0.5rem 0.8rem;
+              font-size: 1rem;
+              font-family: Graphik Dan Web Bold;
+              line-height: 1rem;
+              letter-spacing: 0.35px; }
+    .hero-secondary .hero-wrapper .hero-img img {
+      height: 500px; }
+
+.hero-wrapper_home {
+  background-image: url(../images/banner_land.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 520px;
+  background-position-y: 100%;
+  background-color: white; }
+
+@media (max-width: 991px) {
+  .hero-primary .hero-wrapper .hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.5; }
+
+  .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group {
+    padding: 10px;
+    height: 60px; }
+    .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group input {
+      height: 42px; }
+    .hero-primary .hero-wrapper .hero-content .hero-search-form .input-group .input-group-text button {
+      margin-top: -9px;
+      padding: 12px; } }
+@media (max-width: 767px) {
+  .hero-wrapper_home {
+    background-image: url(../images/767.png);
+    background-size: 100%;
+    background-position: left;
+    background-position-y: 100%; } }
+.search-footer h2 {
+  font-family: Graphik Dan Web Bold;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+  line-height: 4rem;
+  color: #fff; }
+.search-footer p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  font-family: Graphik Dan Web;
+  margin-bottom: 2rem;
+  color: #fff; }
+.search-footer .footer-search-form {
+  margin-top: 3.5rem;
+  margin-left: auto;
+  margin-right: auto; }
+  .search-footer .footer-search-form .input-group {
+    margin-bottom: 0;
+    padding: 0.3rem 0.7rem;
+    padding-left: 0.7rem;
+    padding-left: 1.4rem;
+    border-radius: 2rem;
+    background-color: #fff; }
+    .search-footer .footer-search-form .input-group .form-control {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none; }
+      .search-footer .footer-search-form .input-group .form-control::placeholder {
+        color: #8795AA; }
+    .search-footer .footer-search-form .input-group .input-group-text {
+      background-color: transparent;
+      padding: 5px;
+      border: none; }
+      .search-footer .footer-search-form .input-group .input-group-text button {
+        padding: 1rem;
+        border-radius: 1.35rem;
+        border: none !important;
+        background-color: #38E8B0 !important;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1rem;
+        letter-spacing: 0.35px; }
+
+.site-footer .footer-widget {
+  color: #fff; }
+  .site-footer .footer-widget h5 {
+    font-size: 1.125rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: Graphik Dan Web Semibold; }
+  .site-footer .footer-widget ul {
+    list-style-type: none;
+    margin-left: -2rem; }
+    .site-footer .footer-widget ul a {
+      color: #fff;
+      margin-bottom: 0.5rem;
+      display: block;
+      text-decoration: none;
+      font-family: Graphik Dan Web; }
+.site-footer .widget-social ul {
+  display: flex; }
+  .site-footer .widget-social ul li {
+    margin-right: 1rem; }
+    .site-footer .widget-social ul li a {
+      color: #fff;
+      margin-bottom: 0.5rem;
+      display: block;
+      font-size: 1.125rem;
+      text-decoration: none;
+      font-family: Graphik Dan Web; }
+.site-footer hr {
+  border-bottom: 2px solid #fff;
+  padding: 7px 0; }
+.site-footer .copyright-area {
+  padding-top: 15px;
+  color: #fff;
+  font-size: .845rem; }
+  .site-footer .copyright-area .language-switcher .btn-group .dropdown-toggle {
+    color: #fff;
+    text-decoration: none; }
+  .site-footer .copyright-area .copyright-text a {
+    color: #fff; }
+
+.content-image .section-content h2 {
+  font-family: Graphik Dan Web Bold;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+  line-height: 4rem; }
+.content-image .section-content p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+  font-family: Graphik Dan Web;
+  margin-bottom: 2rem; }
+.content-image .section-content .vertical-icon-list {
+  padding-left: 3rem;
+  list-style: none; }
+  .content-image .section-content .vertical-icon-list li {
+    position: relative; }
+    .content-image .section-content .vertical-icon-list li .li-icon {
+      position: absolute;
+      left: -3rem; }
+    .content-image .section-content .vertical-icon-list li h4 {
+      font-family: Graphik Dan Web Semibold;
+      font-size: 1.7rem;
+      letter-spacing: 0.5px;
+      line-height: 2rem; }
+    .content-image .section-content .vertical-icon-list li p {
+      font-size: 1rem;
+      letter-spacing: 0.35px;
+      line-height: 1.5rem; }
+    .content-image .section-content .vertical-icon-list li a {
+      color: #1AAFD0;
+      text-decoration: none;
+      font-size: 1rem;
+      font-family: Graphik Dan Web Medium;
+      line-height: 1.5rem; }
+
+.features {
+  padding-top: 7.25rem; }
+  .features .features-box h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: Graphik Dan Web Bold; }
+  .features .features-box p {
+    letter-spacing: 0.35px; }
+  .features .features-box a {
+    color: #1AAFD0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Graphik Dan Web Medium;
+    line-height: 1.5rem; }
+
+.theme-accordions .accordion .accordion-item {
+  box-shadow: 0px 0.125rem 0.25rem rgba(0, 0, 0, 0.08), 0px 0.25rem 1.5rem rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.4rem;
+  border-radius: 0.5rem !important; }
+  .theme-accordions .accordion .accordion-item .accordion-header button {
+    border-radius: 0.5rem !important;
+    font-size: 1.125rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    outline: none;
+    box-shadow: none;
+    font-family: Graphik Dan Web Bold; }
+    .theme-accordions .accordion .accordion-item .accordion-header button:not(.collapsed) {
+      background-color: transparent;
+      color: #000; }
+  .theme-accordions .accordion .accordion-item .accordion-body .steps h5 {
+    font-size: 1rem;
+    font-family: Graphik Dan Web Bold;
+    color: #000;
+    margin-top: 0;
+    line-height: 2rem; }
+  .theme-accordions .accordion .accordion-item .accordion-body p {
+    font-size: 1rem;
+    font-family: Graphik Dan Web;
+    color: #000;
+    margin-top: 0;
+    line-height: 2rem; }
+
+.sidebar-accordions .accordion .g__ff__semibold {
+  font-size: 1rem;
+  font-family: Graphik Dan Web Semibold; }
+.sidebar-accordions .accordion .range-value {
+  background: white;
+  padding: 1.5rem 0;
+  border: 1px solid #8795AA;
+  border-radius: 6px;
+  margin-bottom: 1rem; }
+  .sidebar-accordions .accordion .range-value .border-right {
+    border-right: 1px solid #8795AA; }
+  .sidebar-accordions .accordion .range-value h5 {
+    font-size: 1rem;
+    font-family: Graphik Dan Web Medium; }
+  .sidebar-accordions .accordion .range-value h6 {
+    font-size: 1rem;
+    font-family: Graphik Dan Web Bold; }
+  .sidebar-accordions .accordion .range-value p {
+    margin-bottom: 0; }
+.sidebar-accordions .accordion .accordion-item {
+  padding: 1rem 0;
+  border-radius: 0.5rem !important;
+  border: none;
+  border-bottom: 1px solid #E2E5EA; }
+  .sidebar-accordions .accordion .accordion-item .accordion-header button {
+    border-radius: 0.5rem !important;
+    font-size: 1.125rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    outline: none;
+    box-shadow: none;
+    ont-family: Graphik Dan Web Semibold; }
+    .sidebar-accordions .accordion .accordion-item .accordion-header button:not(.collapsed) {
+      background-color: transparent;
+      color: #000; }
+    .sidebar-accordions .accordion .accordion-item .accordion-header button::after {
+      content: '';
+      background-image: none; }
+  .sidebar-accordions .accordion .accordion-item .accordion-body {
+    padding: 1rem 0.5rem !important; }
+    .sidebar-accordions .accordion .accordion-item .accordion-body .form-control {
+      width: 100%;
+      height: calc(1.5em + 2.5rem + 2px);
+      padding: 1.25rem 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #04294F;
+      background-color: #ffffff;
+      background-clip: padding-box;
+      border: 1px solid #8795AA;
+      border-radius: 0.5rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+    .sidebar-accordions .accordion .accordion-item .accordion-body .steps h5 {
+      font-size: 1rem;
+      font-family: Graphik Dan Web Bold;
+      color: #000;
+      margin-top: 0;
+      line-height: 2rem; }
+    .sidebar-accordions .accordion .accordion-item .accordion-body a {
+      color: #143860;
+      font-weight: 400; }
+    .sidebar-accordions .accordion .accordion-item .accordion-body p {
+      font-size: 1rem;
+      font-family: Graphik Dan Web;
+      color: #000;
+      margin-top: 0;
+      line-height: 2rem; }
+
+.checkout #msform {
+  margin-top: 30px; }
+  .checkout #msform h3 {
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    line-height: 2.5rem;
+    font-family: Graphik Dan Web Bold;
+    margin-bottom: 0.5rem; }
+  .checkout #msform a {
+    color: #179DBA;
+    text-decoration: none; }
+  .checkout #msform p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem; }
+  .checkout #msform .order-summery-card {
+    box-shadow: none !important;
+    text-align: left;
+    border: 1px solid #b6bfcc !important; }
+    .checkout #msform .order-summery-card h4 {
+      font-size: 1.5rem;
+      letter-spacing: 0.5px;
+      line-height: 2.5rem;
+      font-family: Graphik Dan Web Bold;
+      margin-bottom: 0.5rem; }
+    .checkout #msform .order-summery-card .card-body .summery-items {
+      margin-bottom: 10px;
+      font-size: 1.1rem; }
+      .checkout #msform .order-summery-card .card-body .summery-items .free {
+        color: #38E8B0; }
+      .checkout #msform .order-summery-card .card-body .summery-items strong {
+        font-family: Graphik Dan Web Semibold; }
+    .checkout #msform .order-summery-card .card-footer {
+      background: #EBFCF7;
+      padding: 1rem;
+      border-bottom-left-radius: 10px !important;
+      border-bottom-right-radius: 10px !important; }
+  .checkout #msform .card {
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.5rem;
+    text-align: left;
+    box-shadow: 0px 0.125rem 0.25rem rgba(0, 0, 0, 0.08), 0px 0.25rem 1.5rem rgba(0, 0, 0, 0.08); }
+    .checkout #msform .card .card-body h3 {
+      font-size: 2rem;
+      letter-spacing: 0.5px;
+      line-height: 2.5rem;
+      font-family: Graphik Dan Web Bold;
+      margin-bottom: 0.5rem; }
+    .checkout #msform .card .card-body a {
+      color: #179DBA;
+      text-decoration: none; }
+    .checkout #msform .card .card-body p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1rem; }
+    .checkout #msform .card .card-body .lead {
+      padding: 1.25rem;
+      background: #F2F3F4;
+      letter-spacing: 0.35px;
+      font-size: 1rem;
+      border-radius: 0.5rem; }
+    .checkout #msform .card .card-body .form-control {
+      display: block;
+      border-radius: 0.25rem;
+      width: 100%;
+      margin-bottom: 1.124rem;
+      height: calc(1.5em + 2.5rem + 2px);
+      padding: 1.25rem 1rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #04294F;
+      outline: none;
+      background-color: #ffffff;
+      background-clip: padding-box;
+      border: 1px solid #8795AA;
+      border-radius: 0.5rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+      .checkout #msform .card .card-body .form-control::placeholder {
+        color: #8795AA; }
+    .checkout #msform .card .card-body .radio-button {
+      margin-bottom: 1rem; }
+      .checkout #msform .card .card-body .radio-button .form-check {
+        padding-left: 0; }
+        .checkout #msform .card .card-body .radio-button .form-check label {
+          cursor: pointer;
+          color: #00112C;
+          padding: 12px 2rem;
+          box-shadow: inset 0 0 0 0.0625rem #8795AA;
+          border-radius: 0.5rem;
+          margin-right: 1rem;
+          transition: all .3s; }
+  .checkout #msform .payment h5 {
+    font-family: Graphik Dan Web !important; }
+    .checkout #msform .payment h5 strong {
+      font-family: Graphik Dan Web Bold !important; }
+  .checkout #msform .payment .accordion-button::after {
+    background-image: none;
+    content: '';
+    margin: 0;
+    width: auto;
+    display: none !important;
+    height: auto; }
+  .checkout #msform .payment .payment-form label {
+    font-family: Graphik Dan Web Semibold !important;
+    font-family: 1rem; }
+  .checkout #msform .payment .payment-form .form-control {
+    color: #00112c;
+    font-size: 1em;
+    font-family: inherit;
+    display: block;
+    height: 46px;
+    background: #fff;
+    border: 1px solid #b9c4c9;
+    border-radius: 6px;
+    padding: 5px 8px;
+    position: relative;
+    outline: none;
+    width: 100%;
+    transition: border .2s ease-out,box-shadow .2s ease-out; }
+  .checkout #msform .payment .accordion-btn {
+    background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+    margin-top: 1rem;
+    display: block;
+    padding: 1rem !important;
+    color: #00112C;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: none;
+    font-family: Graphik Dan Web Semibold !important;
+    font-size: 1rem; }
+    .checkout #msform .payment .accordion-btn:hover {
+      box-shadow: 0 0, 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+      color: #00112C !important; }
+  .checkout #msform .payment .addons {
+    display: inline-block;
+    padding: 0.125rem 0.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    font-size: 1rem;
+    border-radius: 4px;
+    background: #EBFCF7;
+    color: #38E8B0;
+    font-family: Graphik Dan Web Bold;
+    margin-left: 0.75rem; }
+  .checkout #msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    position: relative; }
+    .checkout #msform fieldset:not(:first-of-type) {
+      display: none; }
+  .checkout #msform .action-button {
+    background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem !important;
+    color: #00112C;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: none;
+    font-family: Graphik Dan Web Semibold !important;
+    font-size: 1rem; }
+    .checkout #msform .action-button:hover {
+      box-shadow: 0 0 0 2px white, 0 0 0 3px #179DBA; }
+    .checkout #msform .action-button:focus {
+      box-shadow: 0 0 0 2px white, 0 0 0 3px #179DBA; }
+  .checkout #msform .action-button-previous {
+    width: 100px;
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    border: 0 none;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border: none; }
+    .checkout #msform .action-button-previous:hover {
+      border: none; }
+    .checkout #msform .action-button-previous:focus {
+      box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1; }
+.checkout #progressbar {
+  margin-bottom: 50px;
+  overflow: hidden;
+  counter-reset: step;
+  text-align: center; }
+  .checkout #progressbar li {
+    list-style-type: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px; }
+    .checkout #progressbar li span {
+      font-family: Graphik Dan Web Bold;
+      font-size: 12px; }
+    .checkout #progressbar li:before {
+      content: counter(step);
+      counter-increment: step;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      display: block;
+      font-size: 12px;
+      font-family: Graphik Dan Web Bold;
+      color: #333;
+      background: white;
+      border-radius: 50%;
+      margin: 0 auto 10px auto; }
+    .checkout #progressbar li:after {
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: white;
+      position: absolute;
+      left: -50%;
+      top: 18px !important;
+      z-index: -1; }
+    .checkout #progressbar li:first-child:after {
+      content: none; }
+  .checkout #progressbar li.active:before {
+    background: #179DBA;
+    color: white; }
+  .checkout #progressbar li.active:after {
+    background: #179DBA;
+    color: white; }
+
+.breadcrumb {
+  padding: 4.5rem 0;
+  background-color: #00112C; }
+  .breadcrumb .parking-title {
+    font-family: Graphik Dan Web !important;
+    word-break: break-all;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400; }
+    .breadcrumb .parking-title h1 {
+      font-family: Graphik Dan Web Semibold !important;
+      margin-top: 0; }
+  .breadcrumb .domain-seller {
+    margin-top: 1.24rem;
+    display: flex;
+    align-items: center; }
+    .breadcrumb .domain-seller .description {
+      color: #fff;
+      margin-left: 1rem;
+      font-size: 1rem; }
+
+.bread-domain-card {
+  margin-top: -397px; }
+  .bread-domain-card .this__domain {
+    background-color: #fff; }
+  @media only screen and (max-width: 600px) {
+    .bread-domain-card {
+      margin-top: -120px; } }
+
+.search-header {
+  padding-top: 3rem;
+  padding-bottom: 6rem; }
+  .search-header input {
+    height: 5rem;
+    border-radius: 0.5rem !important;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #04294F;
+    background-color: #ffffff;
+    box-shadow: 0px 0.5rem 0.75rem rgba(0, 0, 0, 0.08), 0px 0.25rem 3rem rgba(0, 0, 0, 0.08);
+    padding: 1.25rem 1rem;
+    outline: none; }
+  .search-header form {
+    position: relative; }
+  .search-header .search__btn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    font-family: Graphik Dan Web Bold;
+    transform: translatey(-50%); }
+    .search-header .search__btn button {
+      border-radius: 0.5rem;
+      border: none;
+      background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+      padding: 0 1.5rem;
+      line-height: 3.4rem; }
+
+.search__content .accordion .accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  background-color: transparent; }
+.search__content .accordion .accordion-header {
+  border-bottom: 1px solid #B6BFCC; }
+  .search__content .accordion .accordion-header button {
+    font-size: 1.125rem;
+    color: #00112c;
+    font-family: Graphik Dan Web Semibold;
+    outline: none;
+    box-shadow: none;
+    border: 0; }
+.search__content .accordion .form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; }
+  .search__content .accordion .form-check .form-check-input {
+    border: 2px solid #00112C;
+    height: 1.563rem;
+    width: 1.563rem;
+    box-sizing: border-box;
+    border-radius: 0.25rem; }
+  .search__content .accordion .form-check .form-check-label {
+    margin: 0px 10px;
+    height: 100%;
+    font-size: 16px; }
+.search__content .accordion .form-check-input:checked {
+  background-color: #1AAFD0;
+  border: none; }
+.search__content .accordion-item {
+  border: 0px solid black; }
+.search__content .form input {
+  height: 2.5rem;
+  border-radius: 0.25rem !important;
+  display: inline-block;
+  padding: 1.25rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #04294F;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #8795AA;
+  outline: #38E8B0; }
+
+.input__two {
+  display: flex;
+  align-items: center;
+  grid-gap: 15px; }
+  .input__two input {
+    width: auto; }
+  .input__two .to span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.35px; }
+
+.result__layout {
+  line-height: 2.5rem;
+  border-bottom: 1px solid #B6BFCC;
+  padding-bottom: 15px; }
+
+.filter span {
+  width: 120px; }
+
+.domain_layout {
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+
+.domain_name {
+  margin-bottom: 10px; }
+  .domain_name a {
+    text-decoration: none;
+    word-break: break-all;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    color: #179DBA;
+    font-weight: 900; }
+    .domain_name a:hover {
+      color: #12768c !important;
+      text-decoration: underline; }
+
+.offer__btn {
+  border-radius: 6px;
+  border: 2px solid #000;
+  width: max-content;
+  margin-left: auto; }
+  .offer__btn a {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0.35px;
+    text-decoration: none;
+    color: #000;
+    padding: 6px 18px;
+    line-height: 1.8; }
+
+.seller__icon img {
+  width: 20px; }
+.seller__tittle {
+  font-size: 1rem;
+  font-weight: 400; }
+
+.pricing {
+  width: 120px;
+  line-height: 2.5;
+  background-image: url(../../images/prize_lable.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+.price-label strong span {
+  font-family: Graphik Dan Web Semibold;
+  letter-spacing: 0.35px;
+  font-size: 1rem; }
+.price-label small {
+  font-size: 12px;
+  font-family: Graphik Dan Web; }
+
+.and span {
+  font-size: 12px;
+  text-transform: lowercase;
+  margin: 0px 5px;
+  letter-spacing: 0.35px; }
+
+.search__content .pagination .page-item {
+  background-color: transparent; }
+.search__content .pagination .page-link {
+  color: #179DBA;
+  border: none; }
+.search__content .pagination .page-link:hover {
+  z-index: 2;
+  font-weight: 500;
+  color: #0F677A !important;
+  background-color: transparent;
+  border-color: #dee2e6; }
+
+@media (max-width: 767px) {
+  .offer__btn {
+    display: block;
+    width: 100%;
+    text-align: center; }
+
+  .seller {
+    margin-bottom: 10px; } }
+@media only screen and (max-width: 600px) {
+  .search-mobile-view {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    z-index: 999;
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    .search-mobile-view .sort-sidebar-mobile {
+      display: flex;
+      justify-content: center; }
+      .search-mobile-view .sort-sidebar-mobile .close-icon {
+        width: 40px;
+        height: 40px;
+        background-color: #00112C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        border-radius: 50%;
+        cursor: pointer; } }
+.contact-support form input {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #04294F;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #8795AA;
+  height: calc(1.5em + 2.5rem + 2px);
+  padding: 1.25rem 1rem;
+  border-radius: 0.5rem; }
+.contact-support form textarea {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #04294F;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #8795AA;
+  padding: 1.25rem 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize; }
+
+.contact__tittle {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+  line-height: 4rem;
+  font-family: Graphik Dan Web Semibold; }
+
+.contact__description {
+  font-size: 1rem; }
+
+.form__btn button {
+  width: 100%;
+  background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.35px;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem; }
+  .form__btn button:hover {
+    background: linear-gradient(0.25turn, #37C597, #38E8B0); }
+
+.explore .section-heading h2 {
+  font-size: 2rem; }
+
+.doon_tittle h2 {
+  font-family: Graphik Dan Web Light; }
+
+.doon_tittle_bold {
+  font-family: Graphik Dan Web Bold !important; }
+
+.jobs__com .jobs__body {
+  background-color: #00112C;
+  padding: 2rem;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; }
+  .jobs__com .jobs__body h2 {
+    line-height: 4; }
+
+.user__info .user__frame {
+  width: 120px;
+  height: 120px; }
+  .user__info .user__frame img {
+    width: 100%;
+    height: 100%; }
+.user__info .user-detail ul li {
+  font-size: 1.125rem; }
+  .user__info .user-detail ul li i {
+    color: #38E8B0; }
+
+.cards__section .common__shadow {
+  border-radius: 10px;
+  height: fit-content; }
+
+.this__domain .form-check {
+  display: flex;
+  align-items: center;
+  grid-gap: 5px; }
+.this__domain .form-check-label {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.cards__section .row {
+  box-sizing: content-box; }
+
+.this__domain__tittle {
+  font-family: Graphik Dan Web Semibold; }
+  .this__domain__tittle h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    line-height: 2rem; }
+  .this__domain__tittle p {
+    color: #143860;
+    font-family: Graphik Dan Web Light;
+    font-size: 1rem; }
+
+.btn__success {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.35px;
+  background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border-color: #38E8B0;
+  color: #00112C;
+  border: none;
+  font-family: Graphik Dan Web Semibold;
+  width: 100%; }
+  .btn__success .next__arrow {
+    height: 20px; }
+
+.buying_points h2 {
+  font-size: 2rem;
+  font-family: Graphik Dan Web Semibold; }
+.buying_points h4 {
+  font-size: 1.25em;
+  font-family: Graphik Dan Web Medium; }
+
+.buying_benefits {
+  padding: 4rem 0; }
+  @media only screen and (max-width: 600px) {
+    .buying_benefits {
+      padding: 2rem 0; } }
+  .buying_benefits img {
+    margin-bottom: 1rem; }
+  .buying_benefits h4 {
+    font-size: 1.25em;
+    font-family: Graphik Dan Web Medium; }
+
+.faqs-section h3 {
+  font-size: 2rem;
+  font-family: Graphik Dan Web Semibold; }
+
+.cards__info li {
+  display: flex;
+  grid-gap: 10px;
+  font-family: Graphik Dan Web Light;
+  text-transform: capitalize; }
+  .cards__info li p {
+    font-size: 1rem;
+    margin-bottom: 4px; }
+
+.this__domain .form-check-input:checked {
+  background: radial-gradient(at 49% 49%, #179DBA 50%, rgba(255, 0, 0, 0) 55%);
+  border: 0.1em solid #179DBA; }
+.this__domain input {
+  font-size: 125%; }
+.this__domain .form-check-input {
+  margin-top: 1px; }
+
+.list__row {
+  display: flex;
+  grid-gap: 25px; }
+  .list__row h3 {
+    font-family: Graphik Dan Web Semibold; }
+  .list__row a {
+    color: #1AAFD0;
+    font-size: 1rem; }
+  .list__row p {
+    font-size: 1rem; }
+
+@media (max-width: 767px) {
+  .doon_tittle h2 {
+    font-size: 2rem; }
+
+  .jobs__body h2 {
+    font-size: 28px; }
+
+  .user__frame {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px; } }
+.rant-domain {
+  background: linear-gradient(90deg, #9F78FF, #20CEFF);
+  padding: 15rem 0 27rem 0; }
+  @media only screen and (max-width: 600px) {
+    .rant-domain {
+      padding: 22rem 0 0rem 0; } }
+  .rant-domain .bg-blue {
+    background-color: #00112C; }
+  .rant-domain .radius-5 {
+    border-radius: 6px; }
+  .rant-domain .domain-seller {
+    margin-top: 1.24rem;
+    display: flex;
+    align-items: center; }
+    .rant-domain .domain-seller .description {
+      color: #fff;
+      margin-left: 1rem;
+      font-size: 1rem; }
+  .rant-domain .buying_points .list__row {
+    margin-bottom: .700rem; }
+  .rant-domain .buying_points h2 {
+    font-size: 1.23rem;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: Graphik Dan Web Semibold; }
+  .rant-domain .buying_points i {
+    color: #fff;
+    font-size: 0.900rem; }
+  .rant-domain .buying_points h4 {
+    font-size: 0.900rem;
+    color: #fff;
+    font-family: Graphik Dan Web Medium;
+    text-decoration: underline; }
+  @media only screen and (max-width: 600px) {
+    .rant-domain .mobile-bottom {
+      background-color: #0A3256 !important;
+      margin-top: 240px;
+      padding: 130px 30px 30px 30px; } }
+  .rant-domain .rant-domain-card {
+    margin-top: -60px;
+    left: 30%;
+    right: 50%;
+    top: 40%; }
+    .rant-domain .rant-domain-card .this__domain {
+      background-color: #fff;
+      border-radius: 6px; }
+    @media only screen and (max-width: 600px) {
+      .rant-domain .rant-domain-card {
+        margin-top: 20px;
+        left: 50%;
+        right: 0%;
+        top: 20%;
+        z-index: 999; } }
+
+/*# sourceMappingURL=custom.css.map */

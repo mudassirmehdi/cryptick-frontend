@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	display: flex; 
+	height: 100%;
+	flex-direction: column;
+}
+.btn:focus{
+	outline:none;
+  	box-shadow:none;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #ea5455 !important;
+    border-color: #ea5455 !important;
+}
+.btn-success {
+	color: #fff;
+	background-color: #28c76f;
+	border-color: #28c76f;
+}
+.btn-more {
+	padding: 10px 24px !important;
+	border-radius: 30px;
+	margin: 0 5px;
+	font-size: 1rem;
+	border: 1px solid #000;
+}
+.support-btn{
+	height: 39px;
+}
+.support-input-group{
+    margin-top: 15px;
+}
+.error{
+	color: #ea5455;
+}
+.input-group label.error{
+    top: 100%;
+	position: absolute;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+.btn-nav {
+	padding: 10px 24px !important;
+	border-radius: 30px;
+	margin: 0 5px;
+	font-size: 1rem;
+}
+.section-padding {
+	padding: 70px 0;
+}
+
+.card {
+	border: 1.1px solid #000;
+	border-radius: 0.9rem;
+}
+.border-md-right {
+	border-right: 1.1px solid #000 !important;
+}
+.border-md-left {
+	border-left: 1.1px solid #000 !important;
+}
+
+.card .card-info {
+	position: relative;
+	z-index: 99;
+}
+.card .card-info .icon {
+   position: absolute;
+   right: -5px;
+   top: -7px;
+}
+.list_unstyled {
+	list-style-type: none;
+}
+
+.rotate-n-90 {
+	rotate: -90deg;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+.clear-btn,
+.clear-btn:focus {
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+.card-link {
+	cursor: pointer;
+}
+footer {
+	margin-top: auto;
+}

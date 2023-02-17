@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+.btn:focus{
+	outline:none;
+  	box-shadow:none;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #ea5455 !important;
+    border-color: #ea5455 !important;
+}
+.btn-success {
+	color: #fff;
+	background-color: #28c76f;
+	border-color: #28c76f;
+}
+.support-btn{
+	height: 39px;
+}
+.support-input-group{
+    margin-top: 15px;
+}
+.error{
+	color: #ea5455;
+}
+.input-group label.error{
+    top: 100%;
+	position: absolute;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+.btn-nav {
+	padding: 10px 24px !important;
+	border-radius: 30px;
+	margin: 0 5px;
+	font-size: 1rem;
+}
+.section-padding {
+	padding: 70px 0;
+}

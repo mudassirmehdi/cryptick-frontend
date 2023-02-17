@@ -1,0 +1,27 @@
+
+
+@import "_fonts";
+@import "_variables";
+ 
+
+ 
+@import "base";
+@import "header";
+@import "hero";
+@import "footer"; 
+
+// Blocks 
+ 
+@import "blocks/content-image";
+@import "blocks/features";
+@import "blocks/accordion";
+@import "blocks/checkout";
+@import "blocks/breadcrumb";
+ 
+
+// Pages 
+ 
+@import "pages/search";
+@import "pages/contact";
+@import "pages/details";
+@import "pages/rant-domain";

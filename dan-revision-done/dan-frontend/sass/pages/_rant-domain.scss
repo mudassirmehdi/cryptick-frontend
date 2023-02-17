@@ -1,0 +1,83 @@
+.rant-domain {
+	background: linear-gradient(90deg, #9F78FF, #20CEFF);  
+	// position: relative; 
+	padding: 15rem 0 27rem 0;
+	@media only screen and (max-width: 600px) { 
+		padding:22rem 0 0rem 0;
+	}
+	.bg-blue {
+		background-color: $blue-full;
+	}
+	.radius-5 {
+		border-radius: 6px;
+	}
+	.domain-seller {
+			margin-top: 1.24rem; 
+			display: flex;
+			align-items: center; 
+			.avatar {
+				.avatar-wrapper {
+
+				}
+			}
+			.description {
+				color: $white;
+				margin-left: 1rem;
+				font-size: 1rem;
+			}
+		}
+	.buying_points {
+		.list__row {
+			margin-bottom: .700rem;
+		}
+
+		  h2 {
+		    font-size: 1.23rem;
+		    color: $white;
+		    margin-bottom: 0;
+		    font-family: $font-family-graphik-semibold;
+		  } 
+
+		  i {
+		  	color: $white;
+		  	font-size: 0.900rem;
+		  }
+
+		  h4 {
+		    font-size: 0.900rem;
+		    color: $white;
+		    font-family: $font-family-graphik-medium;
+		    text-decoration: underline;
+		  }
+		}
+
+		.mobile-bottom {
+			
+			@media only screen and (max-width: 600px) { 
+				background-color: #0A3256!important;
+			    margin-top: 240px; 
+                padding: 130px 30px 30px 30px;
+			}
+		}
+		.rant-domain-card { 
+			margin-top: -60px;
+			left: 30%;
+			right: 50%; 
+			top: 40%;
+			.this__domain {
+				background-color: $white;
+				border-radius: 6px;
+			}
+
+			@media only screen and (max-width: 600px) { 
+			   margin-top: 20px;
+			   left: 50%;
+			   right: 0%; 
+			   top: 20%;
+			   z-index: 999;
+
+
+			}
+			
+		}
+}

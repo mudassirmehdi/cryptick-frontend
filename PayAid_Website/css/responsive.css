@@ -1,0 +1,1201 @@
+/*///////////////////////////////////////////////////////////////////////// Responsive CSS Structure /////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*---------0- Small Mobile , IPhone and laptop and Desktop Start ----------*/
+
+@media  (max-width: 767px) {
+	.banner-text h1 {
+	    font-size: 32px;
+	    line-height: 32px;
+	    padding-bottom: 12px;
+	}
+	.banner-text p {
+	    font-size: 12px;
+	    line-height: 17px;
+	}
+	.banner-text .input-group {
+	    margin: 0px 0px 60px;
+	    flex-direction: column;
+	    width: 100%;
+	}
+	.section-title {
+	    top: 0px;
+		padding: 20px 0px 30px;
+	}
+	.section-title h2 {
+	    font-size: 24px;
+	    line-height: 34px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 22px;
+	    line-height: 26px;
+	    padding: 24px 0px 12px;
+	}
+	.app-services-inner.middle-img img {
+	    width: 100%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 18px;
+	    line-height: 24px;
+	    padding-bottom: 10px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 30px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 22px;
+	    line-height: 32px;
+	    padding-bottom: 15px;
+	    padding-top: 30px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 32px;
+	    line-height: 42px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 30px;
+	    line-height: 40px;
+	    padding-bottom: 35px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	    flex-direction: column;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+	.app-services-block .app-services-inner .app-services-point:nth-child(2) {
+	    padding-top: 50px;
+	}
+	.phone-tab-block img {
+	    width: 100%;
+	}
+	.process-block-main h4 {
+	    font-size: 16px;
+	    line-height: 16px;
+	    padding-left: 10px;
+	}
+	.process-block-main {
+	    width: 100%;
+	    padding: 15px;
+	    margin-bottom: 15px;
+	    margin-left: 0px !important;
+
+	}
+	.budget-banner img {	
+	    width: 90%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.payaid-banner-main .payaid-img-block img {
+	    width: 100%;
+	}
+	.payaid-banner-main .text-last {
+	    padding-top: 38px;
+	}
+	.footer-list-block .footer-list-inner h2 {
+	    font-size: 24px;
+	    line-height: 24px;
+	    padding-bottom: 40px;
+	}
+	.footer-list-block {
+	    padding: 60px 0px 40px;
+	}
+	.footer-list-block .footer-list-inner ul li {
+	    padding: 0px 10px;
+	}
+	.banner-text .input-group input {
+	    height: 44px;
+	    font-size: 14px;
+	    line-height: 14px;
+	    width: 100%;
+	    display: block;
+	    text-align: center;
+	    padding: 0px;
+	}
+	.banner-text .input-group .btn-common {
+	    padding: 14px 22px;
+	    font-size: 14px;
+	    line-height: 14px;
+	}
+	.banner-text .input-group img {
+	    left: 14px;
+	    top: 11px;
+	}
+	.app-services-block .app-services-inner .app-services-point p {
+	    font-size: 12px;
+	    line-height: 20px;
+	    width: 90%;
+	}
+	.process-block-main.second-process {
+	    margin-left: 30px;
+	}
+	.process-block-main.third-process {
+	    margin-left: 60px;
+	}
+	.footer-list-block .footer-list-inner ul li a {
+	    width: 140px;
+	    padding: 9px 9px 9px 17px;
+	    margin-bottom: 16px;
+	}
+	.banner-text .app-link a img {
+		width: 100%;
+		margin: 0 auto;
+		display: table;
+	}
+	.process-block-main img {
+		width: 48px;
+	}
+	.process-main {
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    padding: 70px 0px 0px;
+	}
+	.budget-main {
+	    background-size: cover;
+	    background-repeat: no-repeat;	
+	    padding: 70px 0px 60px
+	}
+	.payaid-banner-main {
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    padding: 70px 0px 100px;
+	}
+	.payaid-banner-main ul li:before {
+	    top: 12px;
+	}
+	.download-banner {
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    padding: 177px 0px 100px;
+	}
+	.list-block-main ul li {
+	    padding: 0px 8px;
+	}
+	.main-header .logo img {
+		width: 32px;
+	}
+	.list-block-main ul li.toggle-bar {
+	    padding-left: 30px;
+	}
+	.list-block-main ul li.toggle-bar a span {
+		width: 30px;
+		height: 2px;
+		margin-bottom: 6px;
+	}
+	.main-header {
+		top: 15px;
+	}
+	.container {
+	    padding-right: 30px;
+	    padding-left: 30px;
+	    max-width: 100%;
+	}
+	.banner-text {
+	    padding: 0px;
+	}
+	.top-banner-main-inner {
+		padding: 100px 0px 50px;
+	}
+	.left-mobile-top {
+		padding: 32px 0px;
+	}
+	.banner-text .input-group .input-group-append {
+	    position: relative;
+	    right: 0px;
+	    margin-top: 16px;
+	}
+	.banner-text .input-group .input-group-append .btn {
+		width: 100%;
+	}
+	.banner-text .app-link {
+	    margin: 0px;
+	    flex-direction: column;
+	}
+	.banner-text .app-link a {
+		margin-bottom: 16px;
+	}
+	.section-title img {
+		width: 23px;
+	}
+	.app-services-block {
+	    display: block;
+	    margin: 0px;
+	    padding-top: 15px;
+	}
+	.app-services-block .app-services-inner {
+	    width: 100%;
+	    padding: 0px 15px;
+	    text-align: center !important;
+	}
+	.app-services-block .app-services-inner.text-right-text .app-services-point {
+	    text-align: center;
+	}
+	.app-services-block .app-services-inner.text-right-text .app-services-point p {
+	    width: 100%;
+	    margin-left: auto;
+	    padding: 0;
+	    margin: 0px;
+	}
+    .app-services-block .app-services-inner .app-services-point {
+	    padding-top: 0px;
+	    padding-bottom: 30px;
+	}
+	.app-services-block .app-services-inner .app-services-point:nth-child(2) {
+	    padding-top: 0px;
+	}
+	.services-block {
+	    padding: 70px 0px 38px;
+	    overflow: hidden;
+	}
+	.services-img-block img {
+	    width: 100%;
+	    height: 100%;
+	    opacity: 0.8;
+	}
+	.phone-tab-block {
+		position: relative;
+		right: -30px;
+	}
+	.payaid-banner-main ul {
+	    padding: 20px 25px 0px 25px;
+	    text-align: center;
+	}
+	.payaid-banner-main ul li:before {
+	    margin-left: 0px;
+	    left: 50%;
+	    transform: translate(0, -50%);
+	    width: 16px;
+	}
+	.payaid-banner-main .payaid-img-block {
+	    padding-top: 40px;
+	    padding-bottom: 60px;
+	}
+	.last-store-block a {
+		margin-bottom: 16px;
+	}
+	.footer-list-block .footer-list-inner ul {
+	    flex-direction: column;
+	}
+	#fp-nav.fp-right {
+	    right: 20px !important;
+	}
+	.services-img-block {
+	    width: 120%;
+	}
+	.download-banner-text {
+	    width: 280px;
+	    margin: 0 auto;
+	}
+	.download-btn-main .btn-full {
+	    height: 48px;
+	    width: 270px;
+	    background-size: contain;
+	}
+	.download-btn-main {
+	    padding: 0px;
+	}
+	.full-screen-menu ul li a {
+	    font-size: 30px;
+	    line-height: 40px;
+	}
+	.full-screen-menu {
+		height: 500px;
+	}
+	.left-mobile-top { text-align: center; }
+	.left-mobile-top img { display: inline-block; width: 275px; left: -8px; }
+	.phone-tab-block img { width: auto; }
+	.first-slide .fp-scroller, .third-slide .fp-scroller {
+		height: auto;
+	}
+	.second-slide .fp-scroller { height: auto; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.banner-text h1 {
+	    font-size: 32px;
+	    line-height: 32px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+	    width: 100%;
+	    left: 0px;
+	}
+	.banner-text p {
+	    font-size: 12px;
+	    line-height: 17px;
+	}
+	.banner-text .input-group {
+	    margin: 20px 0px 20px;
+	}
+	.section-title {
+	    top: 40px;
+	}
+	.section-title h2 {
+	    font-size: 24px;
+	    line-height: 34px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 22px;
+	    line-height: 26px;
+	    padding: 24px 0px 12px;
+	}
+	.app-services-inner.middle-img img {
+	    width: 100%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 18px;
+	    line-height: 24px;
+	    padding-bottom: 10px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 30px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 22px;
+	    line-height: 32px;
+	    padding-bottom: 15px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 32px;
+	    line-height: 42px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 36px;
+	    line-height: 44px;
+	    padding-bottom: 35px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+	.app-services-block .app-services-inner .app-services-point:nth-child(2) {
+	    padding-top: 50px;
+	}
+	.phone-tab-block img {
+	    width: 100%;
+	}
+	.process-block-main h4 {
+	    font-size: 16px;
+	    line-height: 16px;
+	    padding-left: 10px;
+	}
+	.process-block-main {
+	    width: 75%;
+	    padding: 15px;
+	    margin-bottom: 15px;
+	}
+	.budget-banner img {	
+	    width: 90%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.payaid-banner-main .payaid-img-block img {
+		width: 70%;
+	}
+	.payaid-banner-main .text-last {
+	    padding-top: 38px;
+	}
+	.footer-list-block .footer-list-inner h2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    padding-bottom: 30px;
+	}
+	.footer-list-block {
+	    padding: 40px 0px 40px;
+	}
+	.footer-list-block .footer-list-inner ul li {
+	    padding: 0px 10px;
+	}
+	.banner-text .input-group input {
+	    height: 44px;
+	    font-size: 14px;
+	    line-height: 14px;
+	}
+	.banner-text .input-group .btn-common {
+	    padding: 14px 22px;
+	    font-size: 14px;
+	    line-height: 14px;
+	}
+	.banner-text .input-group img {
+	    left: 14px;
+	    top: 11px;
+	}
+	.app-services-block .app-services-inner .app-services-point p {
+	    font-size: 12px;
+	    line-height: 20px;
+	    width: 90%;
+	}
+	.process-block-main.second-process {
+	    margin-left: 30px;
+	}
+	.process-block-main.third-process {
+	    margin-left: 60px;
+	}
+	.footer-list-block .footer-list-inner ul li a {
+	    width: 124px;
+	    padding: 9px 9px 9px 17px;
+	}
+	.banner-text .app-link a img {
+		width: 100%;
+		margin: 0 auto;
+		display: table;
+	}
+	.process-block-main img {
+		width: 48px;
+	}
+	.process-main {
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	.budget-main {
+	    background-size: cover;
+	    background-repeat: no-repeat;	
+	}
+	.payaid-banner-main {
+		background-size: cover;
+	    background-repeat: no-repeat;	
+	}
+	.payaid-banner-main ul li:before {
+	    top: 12px;
+	}
+	.download-banner {
+		background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	.list-block-main ul li {
+	    padding: 0px 5px;
+	}
+	#fp-nav.fp-right {
+	    right: 20px !important;
+	}
+	.services-img-block {
+		top: 0px;
+	    transform: unset; 
+	}
+	.services-img-block img {
+	    height: 100%;
+	}
+	.first-slide .fp-scroller {
+		overflow: unset;
+    	height: 100%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.banner-text h1 {
+	    font-size: 32px;
+	    line-height: 32px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+	    width: 100%;
+	    left: 0px;
+	}
+	.banner-text p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+	.banner-text .input-group {
+	    margin: 40px 0px 40px;
+	}
+	.section-title {
+	    top: 40px;
+	}
+	.section-title h2 {
+	    font-size: 28px;
+	    line-height: 34px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 24px;
+	    line-height: 26px;
+	    padding: 8px 0px 12px;
+	}
+	.app-services-inner.middle-img img {
+	    width: 77%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 25px;
+	    line-height: 30px;
+	    padding-bottom: 10px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 30px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 22px;
+	    line-height: 32px;
+	    padding-bottom: 15px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 26px;
+	    line-height: 32px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 36px;
+	    line-height: 44px;
+	    padding-bottom: 35px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 12px;
+	    line-height: 18px;
+	}
+	.app-services-block .app-services-inner .app-services-point:nth-child(2) {
+	    padding-top: 50px;
+	}
+	.phone-tab-block img {
+		width: 80%;
+	}
+	.process-block-main h4 {
+	    font-size: 18px;
+	    line-height: 18px;
+	    padding-left: 15px;
+	}
+	.process-block-main {
+	    width: 75%;
+	    padding: 15px;
+	    margin-bottom: 15px;
+	}
+	.budget-banner img {	
+	    width: 90%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.payaid-banner-main .payaid-img-block img {
+		width: 70%;
+	}
+	.payaid-banner-main .text-last {
+	    padding-top: 38px;
+	}
+	.footer-list-block .footer-list-inner h2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    padding-bottom: 30px;
+	}
+	.footer-list-block {
+	    padding: 40px 0px 40px;
+	}
+	.footer-list-block .footer-list-inner ul li {
+	    padding: 0px 10px;
+	}
+	.banner-text .input-group input {
+	    height: 50px;
+	}
+	.banner-text .input-group .btn-common {
+	    padding: 16px 34px;
+	}
+	.banner-text .input-group img {
+	    left: 14px;
+	    top: 11px;
+	}
+	.app-services-block .app-services-inner .app-services-point p {
+	    font-size: 14px;
+	    line-height: 22px;
+	    width: 90%;
+	}
+	.process-block-main.second-process {
+	    margin-left: 30px;
+	}
+	.process-block-main.third-process {
+	    margin-left: 60px;
+	}
+	.footer-list-block .footer-list-inner ul li a {
+	    width: 124px;
+	    padding: 9px 9px 9px 17px;
+	}
+	#fp-nav.fp-right {
+	    right: 20px !important;
+	}
+	.budget-main {
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	.process-main {
+        background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	.payaid-banner-main {
+		background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	.download-banner {
+		background-size: cover;
+	    background-repeat: no-repeat;
+	}
+	.services-img-block {
+		top: 0px;
+	    transform: unset; 
+	}
+	.services-img-block img {
+	    height: 100%;
+	}
+	.first-slide .fp-scroller {
+		overflow: unset;
+    	height: 100%;
+	}
+	.second-slide .fp-scroller,
+	.fp-viewing-2 .fp-scroller {
+    	height: 100%;
+	}
+}
+@media (min-width: 1199px) {
+	/* .first-slide .fp-scroller {
+		overflow: unset;
+		height: 100% !important;
+	}
+	.second-slide .fp-scroller {
+		height: 100%;
+	}
+	.third-slide .fp-scroller {
+		overflow: unset;
+		height: 100%;
+	} */
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+	#fp-nav.fp-right {
+	    right: 30px !important;
+	}
+	.banner-text h1 {
+	    font-size: 45px;
+	    line-height: 45px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+	    width: 85%;
+	    left: 0px;
+	}
+	.banner-text p {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.banner-text .input-group {
+	    margin: 40px 0px 40px;
+	}
+	.section-title {
+	    top: 40px;
+	}
+	.section-title h2 {
+	    font-size: 30px;
+	    line-height: 36px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    padding: 11px 0px 22px;
+	}
+	.app-services-inner.middle-img img {
+	    width: 77%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 31px;
+	    line-height: 35px;
+	    padding-bottom: 12px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 30px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 24px;
+	    line-height: 34px;
+	    padding-bottom: 20px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 30px;
+	    line-height: 34px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 40px;
+	    line-height: 50px;
+	    padding-bottom: 40px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+	.app-services-block .app-services-inner .app-services-point:nth-child(2) {
+	    padding-top: 70px;
+	}
+	.phone-tab-block img {
+		width: 80%;
+	}
+	.process-block-main h4 {
+	    font-size: 18px;
+	    line-height: 18px;
+	    padding-left: 15px;
+	}
+	.process-block-main {
+	    width: 70%;
+	    padding: 15px;
+	    margin-bottom: 30px;
+	}
+	.budget-banner img {	
+	    width: 90%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.payaid-banner-main .payaid-img-block img {
+		width: 70%;
+	}
+	.payaid-banner-main .text-last {
+	    padding-top: 38px;
+	}
+	.footer-list-block .footer-list-inner h2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    padding-bottom: 30px;
+	}
+	.footer-list-block {
+	    padding: 40px 0px 40px;
+	}
+	.footer-list-block .footer-list-inner ul li {
+	    padding: 0px 10px;
+	}
+}
+@media (min-width: 1300px) and (max-width: 1399px) {
+	#fp-nav.fp-right {
+	    right: 50px !important;
+	}
+
+	.banner-text h1 {
+	    font-size: 45px;
+	    line-height: 45px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+	    width: 95%;
+	    left: 0px;
+	}
+	.banner-text {
+		padding-left: 0;
+	}
+
+	.section-title {
+		padding-bottom: 60px;
+		padding-top: 35px;
+	}
+
+	.banner-text p {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.banner-text .input-group {
+	    margin: 40px 0px 40px;
+	}
+	.section-title {
+	    top: 40px;
+	}
+	.section-title h2 {
+	    font-size: 30px;
+	    line-height: 36px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    padding: 11px 0px 22px;
+	}
+	.app-services-inner.middle-img img {
+	    width: 77%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 31px;
+	    line-height: 35px;
+	    padding-bottom: 12px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 30px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 24px;
+	    line-height: 34px;
+	    padding-bottom: 20px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 30px;
+	    line-height: 34px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 40px;
+	    line-height: 50px;
+	    padding-bottom: 40px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+	.app-services-block .app-services-inner .app-services-point:nth-child(2) {
+	    padding-top: 70px;
+	}
+	.phone-tab-block img {
+		width: 80%;
+	}
+	.process-block-main h4 {
+	    font-size: 18px;
+	    line-height: 18px;
+	    padding-left: 15px;
+	}
+	.process-block-main {
+	    width: 70%;
+	    padding: 15px;
+	    margin-bottom: 30px;
+	}
+	.budget-banner img {	
+	    width: 90%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.payaid-banner-main .payaid-img-block img {
+		width: 60%;
+	}
+	.payaid-banner-main .text-last {
+	    padding-top: 38px;
+	}
+	.footer-list-block .footer-list-inner h2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    padding-bottom: 30px;
+	}
+	.footer-list-block {
+	    padding: 40px 0px 40px;
+	}
+	.footer-list-block .footer-list-inner ul li {
+	    padding: 0px 10px;
+	}
+}
+@media (min-width: 1400px) and (max-width: 1499px) {
+	.banner-text h1 {
+	    font-size: 45px;
+	    line-height: 45px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+		width: 95%;
+		left: 0px;
+	}
+	.banner-text p {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.banner-text .input-group {
+	    margin: 40px 0px 40px;
+	}
+	.section-title {
+	   padding: 40px 0px 60px;
+	}
+	.section-title h2 {
+	    font-size: 30px;
+	    line-height: 36px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    padding: 11px 0px 22px;
+	}
+	.app-services-inner.middle-img img {
+	    width: 77%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 31px;
+	    line-height: 35px;
+	    padding-bottom: 12px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 30px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 24px;
+	    line-height: 34px;
+	    padding-bottom: 20px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 30px;
+	    line-height: 34px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 40px;
+	    line-height: 50px;
+	    padding-bottom: 40px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+	.app-services-block .app-services-inner .app-services-point:nth-child(2) {
+	    padding-top: 70px;
+	}
+	.phone-tab-block img {
+		width: 80%;
+	}
+	.process-block-main h4 {
+	    font-size: 18px;
+	    line-height: 18px;
+	    padding-left: 15px;
+	}
+	.process-block-main {
+	    width: 70%;
+	    padding: 15px;
+	    margin-bottom: 30px;
+	}
+	.budget-banner img {	
+	    width: 90%;
+	    margin: 0 auto;
+	    display: table;
+	}
+	.payaid-banner-main .payaid-img-block img {
+		width: 70%;
+	}
+	.payaid-banner-main .text-last {
+	    padding-top: 38px;
+	}
+	.footer-list-block .footer-list-inner h2 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    padding-bottom: 30px;
+	}
+	.footer-list-block {
+	    padding: 40px 0px 40px;
+	}
+	.footer-list-block .footer-list-inner ul li {
+	    padding: 0px 10px;
+	}
+}
+
+@media (min-width: 1500px) and (max-width: 1599px) {
+	.banner-text h1 {
+	    font-size: 55px;
+	    line-height: 55px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+	    width: 400px;
+	}
+	.banner-text p {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.banner-text .input-group {
+	    margin: 68px 0px 50px;
+	}
+	.section-title {
+	    top: 40px;
+	}
+	.section-title h2 {
+	    font-size: 38px;
+	    line-height: 46px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    padding: 11px 0px 22px;
+	}
+	.app-services-inner.middle-img img {
+		width: 85%;
+		margin: 0 auto;
+		display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 31px;
+	    line-height: 35px;
+	    padding-bottom: 12px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 50px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 30px;
+	    line-height: 40px;
+	    padding-bottom: 20px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 30px;
+	    line-height: 34px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 50px;
+	    line-height: 60px;
+	    padding-bottom: 50px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+}
+
+@media (min-width: 1600px) and (max-width: 1699px) {
+	.banner-text h1 {
+	    font-size: 55px;
+	    line-height: 55px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+	    width: 400px;
+	}
+	.banner-text p {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.banner-text .input-group {
+	    margin: 68px 0px 50px;
+	}
+	.section-title {
+		padding: 40px 0px 60px;
+	}
+	.section-title h2 {
+	    font-size: 38px;
+	    line-height: 46px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    padding: 11px 0px 22px;
+	}
+	.app-services-inner.middle-img img {
+		width: 85%;
+		margin: 0 auto;
+		display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 31px;
+	    line-height: 35px;
+	    padding-bottom: 12px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 50px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 30px;
+	    line-height: 40px;
+	    padding-bottom: 20px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 30px;
+	    line-height: 34px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 50px;
+	    line-height: 60px;
+	    padding-bottom: 50px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+	.payaid-banner-main .text-last {
+		padding-top: 38px;
+	}
+}
+
+@media (min-width: 1700px) and (max-width: 1799px) {
+	.banner-text h1 {
+	    font-size: 55px;
+	    line-height: 55px;
+	    padding-bottom: 12px;
+	}
+	.left-mobile-top img {
+	    width: 400px;
+	}
+	.banner-text p {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+	.banner-text .input-group {
+	    margin: 68px 0px 50px;
+	}
+	.section-title {
+	    top: 40px;
+	}
+	.section-title h2 {
+	    font-size: 38px;
+	    line-height: 46px;
+	    padding-top: 20px;
+	}
+	.app-services-block .app-services-inner .app-services-point h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    padding: 11px 0px 22px;
+	}
+	.app-services-inner.middle-img img {
+		width: 85%;
+		margin: 0 auto;
+		display: table;
+	}
+	.budget-banner .budget-banner-block h2 {
+	    font-size: 31px;
+	    line-height: 35px;
+	    padding-bottom: 12px;
+	}
+	.budget-banner .budget-banner-block {
+	    padding-top: 50px;
+	}
+	.payaid-banner-main ul li {
+	    font-size: 30px;
+	    line-height: 40px;
+	    padding-bottom: 20px;
+	}
+	.payaid-banner-main .text-last h3 {
+	    font-size: 30px;
+	    line-height: 34px;
+	    font-weight: 600;
+	}
+	.download-banner-text h2 {
+	    font-size: 50px;
+	    line-height: 60px;
+	    padding-bottom: 50px;
+	}
+	.last-store-block {
+	    padding-top: 90px;
+	}
+	.budget-banner .budget-banner-block p {
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+}

@@ -1,0 +1,194 @@
+.explore {
+  .section-heading {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+.doon_tittle {
+  h2 {
+    font-family: $font-family-graphik-light;
+  }
+}
+.doon_tittle_bold {
+  font-family: $font-family-graphik-bold !important;
+
+}
+.jobs__com {
+  .jobs__body {
+    background-color: $blue-full;
+    padding: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    h2 {
+      line-height: 4;
+    }
+  }
+}
+.user__info {
+  .user__frame {
+    width: 120px;
+    height: 120px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .user-detail {
+    ul {
+      li {
+        font-size: 1.125rem;
+        i {
+          color: $green;
+        }
+      }
+    }
+  }
+}
+.cards__section {
+  .common__shadow {
+    border-radius: 10px; 
+    height: fit-content;
+  }
+}
+.this__domain {
+  .form-check {
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+  }
+  .form-check-label {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.cards__section {
+  .row {
+    box-sizing: content-box;
+  }
+}
+.this__domain__tittle {
+  font-family: $font-family-graphik-semibold;
+  h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+  }
+  p {
+    color: #143860;
+    font-family: $font-family-graphik-light;
+    font-size: $default__font_size;
+  }
+
+}
+.btn__success {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.35px;
+  background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border-color: #38E8B0;
+  color: #00112C;
+  border: none; 
+  font-family: $font-family-graphik-semibold; 
+  width: 100%;
+  .next__arrow {
+      height: 20px;
+  }
+}
+
+.buying_points {
+  h2 {
+    font-size: 2rem;
+    font-family: $font-family-graphik-semibold;
+  }
+
+  h4 {
+    font-size: 1.25em;
+    font-family: $font-family-graphik-medium;
+  }
+}
+
+.buying_benefits {
+  padding: 4rem 0;
+  @media only screen and (max-width: 600px) {
+    padding: 2rem 0;
+  }
+  img {
+    margin-bottom: 1rem;
+  }
+  h4 {
+    font-size: 1.25em;
+    font-family: $font-family-graphik-medium;
+  }
+}
+
+.faqs-section {
+   h3 {
+     font-size: 2rem;
+    font-family: $font-family-graphik-semibold;
+   }
+}
+.cards__info {
+  li {
+    display: flex;
+    grid-gap: 10px;
+    font-family: $font-family-graphik-light;
+    text-transform: capitalize;
+    p {
+      font-size: $default__font_size;
+      margin-bottom: 4px;
+    }
+  }
+}
+.this__domain {
+  .form-check-input:checked {
+    background: radial-gradient(at 49% 49%, #179DBA 50%, rgba(255,0,0,0) 55%);
+    border: 0.1em solid #179DBA;
+  }
+  input {
+    font-size: 125%;
+  }
+  .form-check-input {
+    margin-top: 1px;
+  }
+}
+.list__row {
+  display: flex;
+  grid-gap: 25px;
+  h3 {
+    font-family: $font-family-graphik-semibold;
+  }
+  a {
+    color: $blue-light;
+    font-size: 1rem;
+  }
+  p {
+      font-size: $default__font_size; 
+    }
+}
+
+@include media(767px){
+  .doon_tittle  {
+    h2 {font-size: 2rem;}
+  }
+  .jobs__body {
+    h2 {
+      font-size: 28px;
+    }
+  }
+  .user__frame {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+}

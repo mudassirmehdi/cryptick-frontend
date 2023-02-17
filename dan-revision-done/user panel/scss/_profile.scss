@@ -1,0 +1,103 @@
+.sub__tabs {
+  .nav-pills {
+    button {
+      text-align: start !important;
+      padding-top: 0.875rem;
+      padding-bottom: 0.875rem;
+      padding-left: 24px;
+      padding-right: 24px;
+      border: none;
+      color: #00112C;
+      white-space: nowrap;
+      font-weight: 500;
+      border-radius: 0px;
+    }
+  }
+  .tab-content {
+    font-family: $graphik__regular;
+    .sub_form {
+      .form{
+        width:100%;
+        height:60px;
+        position:relative;
+        overflow:hidden;
+        margin-bottom:10px;
+      }
+      .form input{
+        width:100%;
+        height:100%;
+        color:#5fa8d3;
+        padding-top:25px;
+        border:1px solid #B6BFCC;
+        padding: 29px 25px;
+        outline:none;
+        border-radius: 0.25rem;
+      }
+      .form label {
+        position: absolute;
+        width:100%;
+        height:100%;
+        bottom:0px;
+        left:25px;
+        pointer-events:none;
+      }
+      .form label::after{
+        content:"";
+        position:absolute;
+        width:100%;
+        height:100%;
+        bottom:-1px;
+        left:0px;
+        transform:translateX(-0%);
+        transition:all 0.3s ease;
+      }
+      .content-name{
+        position:absolute;
+        bottom:20%;
+        left:0px;
+        transition:all .3s ease;
+        margin-bottom: 0;
+        color: #8795AA;
+        font-size:14px;
+      }
+      .form input:focus + .label-name .content-name ,
+      .form input:valid+ .label-name .content-name{
+        transform:translateY(-90%);
+        
+        font-size: 0.75rem;
+        color: #687a94;
+      }
+      .form input:focus+ .label-name::after, 
+      .form input:valid+ .label-name::after {
+        transform:translateX(0%);
+         
+      }
+      h5 {
+        font-size: $default__font_size;
+        color: $black__100;
+        font-family: $graphik__semibold;
+      }
+    }
+  }
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: $black__100;
+    background-color: #E8F7FB;
+  }
+  .nav-pills button {
+    background-color: white;
+    outline: none !important;
+  }
+}
+.sub_icons {
+  margin: 0px 10px;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+.sub__layout {
+  margin-left: 6rem;
+}
+.close__icon {
+  width: 20px;
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Chat App Design | Mudassir Mehdi</title>
+	<link rel="icon" href="img/favicon.png" type="image/png" />
+  <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="home">
+
+
+  <section class="container-fluid">
+  	<div class="row">
+  		<div class="col-lg-3 col-md-4 p-0 chat-sidebar">
+  			<div class="sidebar-header  px-3 pt-4">
+		  				 	 <div class="header-logo">
+		  				 	   	<h4>Messeger</h4>
+		  				 	  </div>
+		  				 	 <div class="header-icon">
+		  				 	 	<i class="fa fa-user"> </i>
+		  				 	 	<i class="fa fa-th"> </i>
+		  				 	 	<i class="fa fa-search"> </i>
+		  				 	 </div>
+		  				 </div>
+  			    <div class="sidebar">
+               <div class="users-profiles p-3">
+
+               	  <div class="user-story">
+               	  	<div class="row">
+               	  		<div class="col-3 text-center">
+               	  			<a href="#" data-toggle="modal" data-target="#addStories">
+               	  			  <img src="images/user-story.png" class="rounded-circle" width="56">
+               	  			  <p>Your Story</p>
+               	  			 </a>
+               	  		</div>
+
+               	  		<div class="col-3 text-center">
+               	  			  <a href="#" data-toggle="modal" data-target="#exampleModal">
+               	  			  	<img src="images/user2.png" class="rounded-circle" width="56">
+               	  			    <p>Gus Fring</p>
+               	  			   </a>
+               	  		</div>
+
+               	  		<div class="col-3 text-center">
+               	  			  <a href="#" data-toggle="modal" data-target="#exampleModal">
+               	  			  	<img src="images/user3.png" class="rounded-circle" width="56">
+               	  			    <p>Walter White</p>
+               	  			  </a>
+               	  		</div>
+
+               	  		<div class="col-3 text-center">
+               	  			  <a href="#" data-toggle="modal" data-target="#exampleModal">
+               	  			  	<img src="images/user1.png" class="rounded-circle" width="56">
+               	  			    <p>Michael Wong</p>
+               	  			  </a>
+               	  		</div>
+               	  	</div>
+               	  </div>
+               	  <ul class="nav nav-pills  p-2">
+	                  <li class="nav-item"><a class="nav-link active" href="#tab_1" data-toggle="tab">Chats <span class="chat-number">8</span></a></li>
+	                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Groups</a></li>
+	                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Call</a></li>
+	                </ul>  
+
+	                <h6 class="today-chat">Today</h6>
+
+	                <div class="tab-content">
+	                  <div class="tab-pane mt-3 active" id="tab_1">
+	                    <div class="chat-profile mb-2  d-flex justify-content-between align-items-center  px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user1.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/online.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Michael Wong</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">1</span></p>
+	                     	</div>
+	                     </div>
+
+	                       <div class="chat-profile mb-2  d-flex justify-content-between align-items-center  px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user2.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/offline.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Gus Fring</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">4</span></p>
+	                     	</div>
+	                     </div>
+
+	                       <div class="chat-profile mb-2  d-flex justify-content-between align-items-center active-chat px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user3.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/offline.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Walter White</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">5</span></p>
+	                     	</div>
+	                     </div>
+
+	                       <div class="chat-profile mb-2  d-flex justify-content-between align-items-center  px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user4.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/offline.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Gus Fring, Walter White</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">12</span></p>
+	                     	</div>
+	                     </div>
+
+	                     <h6 class="today-chat">Recent Chat</h6>
+
+	                      <div class="chat-profile mb-2  d-flex justify-content-between align-items-center  px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user4.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/offline.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Gus Fring, Walter White</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">12</span></p>
+	                     	</div>
+	                     </div>
+
+	                  </div>
+	                  <!-- /.tab-pane mt-3 -->
+	                  <div class="tab-pane mt-3" id="tab_2">
+	                      <div class="chat-profile mb-2  d-flex justify-content-between align-items-center  px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user1.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/offline.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Michael Wong</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">1</span></p>
+	                     	</div>
+	                     </div>
+
+	                      <div class="chat-profile mb-2  d-flex justify-content-between align-items-center  px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user2.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/offline.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Michael Wong</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">1</span></p>
+	                     	</div>
+	                     </div>
+	                  </div>
+	                  <!-- /.tab-pane mt-3 -->
+	                  <div class="tab-pane mt-3" id="tab_3">
+	                    <div class="chat-profile mb-2  d-flex justify-content-between align-items-center  px-2 rounded-sm">
+	                     	<div class="profile-img w-25">
+	                     		<img src="images/user4.png" class="rounded-circle user-image" width="40" height="40">
+	                     		<img src="images/offline.png" class="status" width="20" height="20">
+	                     	</div>
+	                     	<div class="profile-meta w-75">
+	                     		<h5 class="mb-0">Gus Fring, Walter White</h5>
+	                     		<p class="mb-0">Yeah, we all loved it!</p>
+	                     	</div>
+	                     	<div class="profile-action w-25 text-right">
+	                     		<a href="#">12:25</a>
+	                     		<p><span class="count-badge">1</span></p>
+	                     	</div>
+	                     </div>
+	                  </div>
+	                  <!-- /.tab-pane -->
+	                </div> <!-- /.tab-content --> 
+               </div>
+            </div> 
+  		</div>
+  		<div class="col-lg-9 col-md-8 p-0  message-wrapper d-none d-md-block">
+  			<div class="content">
+  		     <div class="message-main">
+	  		     	<div class="message-header">
+
+	  		     		
+
+	  		     		 <div class="message-header-profile">
+
+	  		     		 	<div class="back-arrow mr-3 ml-0 d-md-none">
+	  		     			   <a href="index.html"><i class="fa fa-angle-left fa-2x"></i></a>
+	  		     		  </div> 
+	  		     		 	 <img src="images/user1.png" width="40" class="rounded-circle mr-2">
+	  		     		   <div>
+	  		     		   	<h5 class="mb-0 ">Michael Wong</h5>
+	  		     		     <small class="online-status d-block">Online</small>
+	  		     		   </div>
+	  		     		 </div>
+
+	  		     		 <div class="message-header-icons">
+	  		     		 	 <i class="fa fa-phone"></i>
+	  		     		 	 <i class="fa fa-video-camera"></i> 
+	  		     		 </div>
+	  		     	</div>
+
+
+	  		     	<div class="message-body px-3 py-4">
+	  		     		 <div class="row message-items mb-3">
+	  		     		 	  <div class="col-md-7 col-3"></div>
+	  		     		 	   <div class="col-md-5 col-9">
+	  		     		 	   	<div class="outgoing">
+	  		     		 	   	   <p class="mb-0">Hi, How are you?</p>
+	  		     		 	   	</div>
+	  		     		 	   </div>
+	  		     		 </div>
+
+	  		     		 <div class="row message-items mb-3">
+	  		     		 	   <div class="col-md-5 col-9">
+	  		     		 	   	<div class="incomming">
+	  		     		 	   	   <p class="mb-0">Hi, I am good How about You?</p>
+	  		     		 	   	</div>
+	  		     		 	   </div>
+	  		     		 	   <div class="col-md-7 col-3"></div>
+	  		     		 </div>
+
+
+	  		     		  <div class="row message-items mb-3">
+	  		     		 	  <div class="col-md-7 col-3"></div>
+	  		     		 	   <div class="col-md-5 col-9">
+	  		     		 	   	<div class="outgoing">
+	  		     		 	   	   <p class="mb-0">Can you help me to do something with my landing page? <br><br>
+	  		     		 	   	   Thank you 👍</p>
+	  		     		 	   	</div>
+	  		     		 	   </div>
+	  		     		 </div>
+
+	  		     		 <div class="row message-items mb-2">
+	  		     		 	   <div class="col-md-5 col-9">
+	  		     		 	   	<div class="incomming">
+	  		     		 	   	   <p class="mb-0">Wait I will send you video link. <br> <br>
+	  		     		 	   	   <a href="https://www.youtube.com/watch?v=zWh3CShX_do " target="_blank">https://www.youtube... </a></p>
+	  		     		 	   	</div>
+	  		     		 	   </div>
+	  		     		 	   <div class="col-md-7 col-3"></div>
+	  		     		 </div>
+
+	  		     		 <div class="row message-items mb-3">
+	  		     		 	   <div class="col-md-5 col-9">
+	  		     		 	   	<div class="incomming">
+	  		     		 	   	   <p class="mb-0">
+	  		     		 	   	   	<br>
+	  		     		 	   	   I think this will help.</p>
+	  		     		 	   	</div>
+	  		     		 	   </div>
+	  		     		 	   <div class="col-md-7 col-3"></div>
+	  		     		 </div>
+
+	  		     		  <div class="row message-items mb-3">
+	  		     		 	  <div class="col-md-7 col-3"></div>
+	  		     		 	   <div class="col-md-5 col-9">
+	  		     		 	   	<div class="outgoing">
+	  		     		 	   	   <p class="mb-0">Ok thanks let me check</p>
+	  		     		 	   	</div>
+	  		     		 	   </div>
+	  		     		 </div>
+
+
+	  		     		 <div class="row message-items mb-3">
+	  		     		 	   <div class="col-md-5">
+	  		     		 	   	<div class="incomming">
+	  		     		 	   	   <p class="mb-0">Ok sure</p>
+	  		     		 	   	</div>
+	  		     		 	   </div>
+	  		     		 	   <div class="col-md-7"></div>
+	  		     		 </div>
+	  		     	</div>
+
+	  		     	<div class="message-footer ">
+	  		     		  <div class="input-group message-input"> 
+										  <textarea class="form-control" rows="1" placeholder="Type message...."></textarea>
+										  <div class="input-group-append">
+										    <button class="btn btn-primary" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+										  </div>
+										</div>
+	  		     	</div>
+  		     </div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+    	<div class="modal-header border-0 pb-0">
+        <h6 class="modal-title" id="exampleModalLabel"><img src="images/user1.png" class="mr-1 rounded-circle" width="30"> Gus Fring</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+     
+      <div class="modal-body pt-3">
+          <div class="pause">
+					  <div class="progress-container">
+					    <div style="animation-duration: 2s" class="progress"></div> 
+					    <div style="animation-duration: 5s" class="progress"></div> 
+					    <div style="animation-duration: 3s" class="progress"></div>   
+					  </div>
+					  
+					  <!-- <br>
+					  <div class="not-hovered">Hover me to pause</div>
+					  <div class="hovered">Paused!</div>
+					  <div class="status"></div> -->
+
+					 <div class="row justify-content-center">
+					 	<div class="col-md-8">
+					 		 <div class="text-center">
+							  	<img src="images/stories.jpg" class="img-fluid">
+							  </div>
+					 	</div>
+					 </div>
+					  
+					</div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="addStories" tabindex="-1" role="dialog" aria-labelledby="addStoriesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+    	<div class="modal-header border-0 pb-0">
+        <h6 class="modal-title" id="addStoriesLabel"> Create Your Story</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+     
+      <div class="modal-body pt-3">
+            
+            <form id="file-upload-form" class="uploader">
+						  <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+
+						  <label for="file-upload" id="file-drag">
+						    <img id="file-image" src="#" alt="Preview" class="hidden">
+						    <div id="start">
+						      <i class="fa fa-download" aria-hidden="true"></i>
+						      <div>Select a file or drag here</div>
+						      <div id="notimage" class="hidden">Please select an image</div>
+						      <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
+						    </div>
+						    <div id="response" class="hidden">
+						      <div id="messages"></div>
+						      <progress class="progress" id="file-progress" value="0">
+						        <span>0</span>%
+						      </progress>
+						    </div>
+						  </label>
+						</form>
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+  <div class="chatbot-icon">
+  	<a href="#home"><img src="images/chatbot.png"></a>
+  </div>
+
+   
+
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/fontawesome.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
